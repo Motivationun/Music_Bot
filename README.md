@@ -5,7 +5,7 @@
 ### Available on telegram as [@AbscissaMusic_Bot](https://t.me/AbscissaMusic_Bot)
 
 <p align="center">
-  <img src="https://telegra.ph/file/dd04b1968f1bc1169d162.jpg">
+  <img src="https://telegra.ph/file/7e7c022256cd080bdbcf9.jpg">
 </p>
 
 <h2> Features 🔥 </h2>
