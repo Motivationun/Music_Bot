@@ -17,3 +17,4 @@ future
 psutil
 wget
 git+https://github.com/ytdl-org/youtube-dl
+--upgrade youtube_dl
