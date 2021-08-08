@@ -9,6 +9,6 @@ RUN npm i -g npm
 RUN mkdir /app/
 WORKDIR /app/
 COPY . /app/
+RUN pip3 install --upgrade youtube_dl
 RUN pip3 install -U -r requirements.txt
-RUN sudo pip install --upgrade youtube_dl
 CMD python3 -m DaisyXMusic
