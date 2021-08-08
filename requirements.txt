@@ -17,4 +17,5 @@ future
 psutil
 wget
 git+https://github.com/ytdl-org/youtube-dl
---upgrade youtube_dl
+pip install youtube_dl
+sudo pip install -U youtube-dl
