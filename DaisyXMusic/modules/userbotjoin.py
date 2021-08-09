@@ -45,7 +45,7 @@ async def addchannel(client, message):
         await USER.send_message(message.chat.id, "<b>I joined here as you requested<b>")
     except UserAlreadyParticipant:
         await message.reply_text(
-            "<b>helper already in your chat</b>",
+            "<b>I am already in your chat</b>",
         )
     except Exception as e:
         print(e)
