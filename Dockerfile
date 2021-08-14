@@ -9,6 +9,8 @@ RUN npm i -g npm
 RUN mkdir /app/
 WORKDIR /app/
 COPY . /app/
+RUN pip3 install py-tgcalls -U
+RUN pip3 install -U pyrogram tgcrypto
 RUN pip3 install --upgrade youtube_dl
 RUN pip3 install -U youtube-dl
 RUN pip3 install -U -r requirements.txt
