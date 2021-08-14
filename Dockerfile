@@ -12,4 +12,5 @@ COPY . /app/
 RUN pip3 install --upgrade youtube_dl
 RUN pip3 install -U youtube-dl
 RUN pip3 install -U -r requirements.txt
+RUN pip3 install git+https://github.com/pytgcalls/pytgcalls -U
 CMD python3 -m DaisyXMusic
