@@ -1,6 +1,6 @@
 Pyrogram
 TgCrypto
-py-tgcalls
+py-tgcalls==0.5.5
 python-dotenv
 youtube_dl
 youtube_search_python
@@ -17,5 +17,3 @@ future
 psutil
 wget
 git+https://github.com/ytdl-org/youtube-dl
-youtube_dl
-
