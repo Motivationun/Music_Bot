@@ -8,5 +8,6 @@ RUN npm i -g npm
 RUN mkdir /app/
 COPY . /app/
 WORKDIR /app/
+RUN pip3 install -U youtube-dl
 RUN python3.9 -m pip install -U -r requirements.txt
 CMD python3.9 -m DaisyXMusic
